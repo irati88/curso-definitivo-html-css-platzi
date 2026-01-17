@@ -1,0 +1,43 @@
+
+
+img {
+    width: fit-content;
+    height:fit-content
+}
+
+/* Cambiar el color y el tamaño del texto de la lista desordenada */
+ol {
+    color: ; /* Cambiar el color del texto */
+    font-size: 18px;
+  }
+ 
+ /* Cambiar el tamaño y el color de la lista ordenada */
+ ul {
+    color: rgb(23, 23, 170); /* Cambiar el color y tamaño del texto */
+    font-size:black 20px;
+ } 
+  
+  /* Cambiar el tamaño de la fuente y el color de los encabezados h1 */
+  h1 {
+    font-size: 2em; /* Cambiar el tamaño de la fuente a 2 veces el tamaño predeterminado */
+    color: black;
+    background-color: crimson;
+    text-align: center;
+  }
+
+  h2 {
+    color: black;
+    font-size: 24px;
+  }
+
+  h3 {
+    color: white;
+    font-size: 20px;
+  }
+  
+  body 
+  {
+      background-color: #7940c9;
+      color: antiquewhite;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } 
