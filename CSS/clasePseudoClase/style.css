@@ -1,26 +1,32 @@
 .main-nav {
-    margin-top: 10px;
-    list-style: none;
-    padding-left: 0px;
-    background-color: #13a4a4;
+  margin-top: 10px;
+  list-style: none; /* Elimina los puntos de una lista */
+  padding-left: 0px; /* Espacio interno en un contenedor */
+  background-color: #13a4a4;
 }
 .main-nav__item {
-    display: inline-block;
+  display: inline-block; /* Pone elementos de la lista en horizontal */
 }
+/* Aplicar estilo a las etiquetas "a" dentro del nav */
 .main-nav__item a {
-    color: white;
-    padding: 5px;
-    border-radius: 2px;
-    text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none; /* Elimina subrayado de links */
 }
 
+/* PSEUDOCLASES /*
+/* hover: Aplica un estilo cuando pasamos el cursor sobre un elemento */
 .main-nav__item a:hover {
-    color: blue;
+  color: blue;
 }
+/* active: Afecta a un elemento cuando está siendo activa (al hacer click). */
 .main-nav__item a:active {
-    color: red;
+  color: red;
 }
 
+/* PSEUDOELEMENTO */
+/* ::before/::after: Insertar contenido antes o después del elemento */
 .main-nav__item a::after {
-    content: " | ";
+  content: " | ";
 }

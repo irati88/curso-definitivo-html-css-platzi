@@ -1,12 +1,13 @@
+/* Elimina/resetea los estilos por default */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box; /* Calcula el tamaño del elemento con el padding & border */
+    padding: 0; /* El relleno */
+    margin: 0; /* Espacio externo, de la caja hacia afuera */
 }
 
 main {
-    width: 100%;
-    height: 500px;
-    border: 10px solid grey;
-    padding: 20px 35px;
+    width: 100%; /* Largo de la caja/contenido */
+    height: 500px; /* Alto de la caja/contenido */
+    border: 30px solid rgb(129, 7, 7);
+    padding: 20px 35px; /* 20px arriba+abajo 35px izq+der */
 }
