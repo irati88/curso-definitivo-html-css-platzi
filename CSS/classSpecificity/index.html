@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Especificidad</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 id="page-title" class="title">Empresa</h1>
+      <nav>
+        <ul id="main-nav" class="nav">
+          <li><a href="">Home</a></li>
+          <li><a href="">Cursos</a></li>
+          <li><a href="">Instructores</a></li>
+          <li><a href="" class="blog">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="order-page">
+        <h2>Orden de Declaración en CSS</h2>
+        <ul>
+          <li><strong>Importancia</strong></li>
+          <p>Primero carga los estilos del <strong>navegador</strong></p>
+          <li>Después los estilos de nuestro <strong>.css</strong></li>
+          <li>
+            Por último, las declaraciones de nuestro .css que tengan un
+            <strong>!important</strong>
+          </li>
+        </ul>
+      </section>
+
+      <section class="specificity">
+        <p class="specificity-title"> <strong>Selectores & Especificidad</strong> (left el más importante - right el menos)</p>
+        <ul class="specificity__item">
+          <li class="specificity__item">!important => 1,0,0,0,0</li>
+          <li class="specificity__item">Inline styles (el del navegador)=> 0,1,0,0,0</li>
+          <li class="specificity__item">#id => 0,0,1,0,0</li>
+          <li class="specificity__item">.class => 0,0,0,1,0</li>
+          <li class="specificity__item">tag (etiquetas HTML) => 0,0,0,0,1</li>
+        </ul>
+      </section>
+
+      <section class="style-orders"></section>
+      <p class="order-title"><strong>Orden de los estilos</strong> (de arriba a abajo)</p>
+    </main>
+  </body>
+</html>

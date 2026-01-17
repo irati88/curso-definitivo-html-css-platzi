@@ -4,12 +4,13 @@
   padding: 0;
 }
 h1 {
+  padding: 10px;
   color: purple;
   font-family: serif;
   margin-bottom: 10px;
 }
 .title {
-  font-size: 18px;
+  font-size: 20px;
   font-family: monospace;
 }
 .nav {
@@ -30,4 +31,13 @@ h1 {
 }
 .nav .blog {
   background-color: red;
+}
+h2 {
+padding: 10px 0;
+}
+.specificity-title, .order-title {
+  padding-top: 10px;
+}
+.specificity__item {
+  padding-left: 20px;
 }
