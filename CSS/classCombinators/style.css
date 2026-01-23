@@ -1,0 +1,20 @@
+.combinators {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+/* Combinador Adjacent Sibling: Aplica el color rojo a las etiquetas <p> que estén después de un <h2> */
+h2 + p {
+    color: red;
+}
+
+/* Combinador General Sibling: Aplica el color violeta siempre que las <p> estén a la misma altura que los <h3> */
+/* alt + 126 = ~ */
+h3 ~ p {
+color: blueviolet;
+}
+
+/* Combinador Child:  */
+/* Combinador Descendant: */

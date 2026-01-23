@@ -38,6 +38,6 @@ padding: 10px 0;
 .specificity-title, .order-title {
   padding-top: 10px;
 }
-.specificity__item {
+.specificity__item, .style-orders__item {
   padding-left: 20px;
 }
