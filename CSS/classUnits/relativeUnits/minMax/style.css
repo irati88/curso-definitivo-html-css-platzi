@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ocupará el 100% del viewport tanto en ancho como alto */
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: purple;
+}
+
+/* Para usar el max-min width, se necesita un width base en % */
+section {
+  width: 80%;
+  min-width: 320px;
+  max-width: 500px; /* Será el ancho máx del contenedor */
+  min-height: 500px; /* Crecerá más de 500px si es necesario por contenido */
+  margin: 0 auto;
+  background-color: pink;
+}

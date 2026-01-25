@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* html: 62.5% = 16px */
+html {
+  font-size: 62.5%;
+}
+
+/* Valor relativo al elemento root, al HTML. 1rem = 16px*/
+p, li {
+  font-size: 1.6rem;
+}
+/* Aunque esté anidado, si usamos "rem", el tamaño de fuente no cambia/se multiplica */
+main div {
+  font-size: 1.6rem;
+}
