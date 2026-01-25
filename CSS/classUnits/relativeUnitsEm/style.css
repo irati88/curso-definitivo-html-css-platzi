@@ -1,0 +1,9 @@
+/* 1 em = 16px */
+.text-container {
+/* Calcula el tamaño de fuente del padre directo (aquí el HTML) * 1.5 = 24px */
+  font-size: 1.5em;
+}
+/* Como el <p> está dentro de un <div>, calcula los 24px anteriores *1.5 = 36px */
+.text-container div {
+  font-size: 1.5em;
+}

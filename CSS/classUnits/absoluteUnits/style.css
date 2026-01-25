@@ -1,0 +1,13 @@
+main {
+  background-color: blueviolet;
+  width: 100%;
+  height: 500px;
+}
+/* El tamaño de la fuente no va a cambiar aunque lo vea en mvl o desktop */
+.absolute-unit {
+  font-size: 18px;
+}
+/* El tamaño lo hereda del estilo default, o sea, 8px (el estándar son 16px) */
+.relative-percentage {
+  font-size: 50%;
+}

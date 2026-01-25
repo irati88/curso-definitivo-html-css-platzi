@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medidas CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Tipos de medidas en CSS</h1>
+    <div>
+      <ol>
+        <li><strong>Absolutas: Son medidas estáticas / Parámetros fijos</strong></li>
+        <ul>
+          <li>Píxeles: El valor no cambia, independientemente del tamaño de la pantalla</li>
+        </ul>
+
+        <li><strong>Relativas: Son variables</strong></li>
+        <ul>
+          <li><strong>%</strong> - Varían en función del tamaño de la pantalla</li>
+          <li><strong>em (element)</strong> - Relativo al tamaño de fuente de un elemento</li>
+          <li><strong>rem (root element)</strong> - Relativo al tamaño de fuente del elemento raíz</li>
+          <li><strong>max-width / max height</strong></li>
+          <li><strong>min-width / min height</strong></li>
+          <li><strong>vw (viewport width)</strong> - Porcentaje relativo a la anchura del viewport</li>
+          <li><strong>vh (viewport height)</strong> - Porcentaje relativo a la altura del viewport</li>
+        </ul>
+      </ol>
+    </div>
+
+    <main>
+      <p class="absolute-unit">Soy un texto con medida absoluta de 18px</p>
+      <p class="relative-percentage">Soy un texto con medida relativa del 50%</p>
+    </main>
+  </body>
+</html>
