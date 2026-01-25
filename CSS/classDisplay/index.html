@@ -1,11 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS: Display</title>
-</head>
-<body>
-  <h1>CSS: Tipos de Display</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS: Display</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>CSS: Tipos de Display</h1>
+    <p></p>
+    <ul>
+      <li>
+        <strong>Display Block:</strong> Ocupa el 100% del espacio horizontal
+        disponible. Cada elemento irá en una línea nueva. Se pueden aplicar
+        margin/padding (en los 4 lados), width y height.
+      </li>
+      <li>
+        <strong>Inline:</strong> Solo ocupan el espacio del contenido. Si hay
+        hueco, seguirá añadiendo más contenido seguido. Se pueden aplicar
+        margin/padding solo en iz-der. No se pueden aplicar width ni height.
+      </li>
+      <li><strong>Inline-Block:</strong> Permite aplicar margin, padding, width, y height. Permite que otros elementos se posiciones en línea horizontalmente si hay espacio suficiente.</li>
+    </ul>
+
+    <div class="block-element">Esta es una etiqueta div</div>
+    <p class="block-element">Esta es una etiqueta de párrafo</p>
+    <div class="block-element">
+      <p class="paragraph">Soy texto en <strong>display: block</strong></p>
+      <p class="paragraph">Soy texto en <strong>display: block</strong></p>
+      <p class="paragraph">Soy texto en <strong>display: block</strong></p>
+    </div>
+    <span>Soy una etiqueta span en <strong>Display: inline</strong></span>
+    <span>Soy una etiqueta span en <strong>Display: inline</strong></span>
+
+    <p>Esto es una barra de navegador con <strong>Display: Inline-Block</strong></p>
+    <ul class="nav">
+      <li>Home</li>
+      <li>Cursos</li>
+      <li>Profesores</li>
+      <li>Blog</li>
+    </ul>
+  </body>
 </html>
