@@ -19,12 +19,12 @@
     <div class="combinators">
       <span><strong>Adjacent Sibling (rojo)</strong></span>
       <h2>Soy un h2</h2>
-      <p>Soy un p</p>
+      <p>Soy adjacent sibling del h2</p>
       <h2>Soy un h2</h2>
       <h3>Soy un h3</h3>
       <p>Soy un p</p>
       <h2>Soy un h2</h2>
-      <p>Soy un p</p>
+      <p>Soy adjacent sibling del h2</p>
     </div>
 
     <div class="combinators">
@@ -33,8 +33,23 @@
       <p>Soy un p</p>
       <h2>Soy un h2</h2>
       <h3>Soy un h3</h3>
-      <p>Soy un p</p>
+      <p>Soy un general sibling del h3</p>
     </div>
 
+    <div class="combinators">
+      <span><strong>Combinador Child</strong></span>
+      <article>
+        <p>Mi padre directo es un "article"</p>
+      </article>
+      <article>
+        <p>Mi padre directo es un "article"</p>
+      </article>
+      <section>
+        <div>
+          <p>Soy el child de un "div"</p>
+        </div>
+      </section>
+      <p>Soy el child de un "div"</p>
+    </div>
   </body>
 </html>
