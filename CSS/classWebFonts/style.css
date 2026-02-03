@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 4rem;
+}
+.container {
+  width: 200vw;
+  height: 20vh;
+  display: flex;
+  border: 0.3rem solid black;
+  background-color: greenyellow;
+  padding-left: 20px;
+  gap: 20px;
+}
+.box {
+  border: 0.1rem solid black;
+}
+.box p {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  background-color: aquamarine;
+}
+li {
+  font-size: 1.4rem;
+  list-style: none;
+}
+.fuentes {
+  display: flex;
+  flex-direction: column;
+}
+.fonts-box {
+  display: flex;
+  gap: 20px;
+}
+main p {
+    font-size: 1.8rem;
+    font-family: "Roboto", sans-serif;
+}
