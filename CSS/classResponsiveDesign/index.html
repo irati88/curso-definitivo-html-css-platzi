@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="./style.css"> <!-- Estilos enfocados a mobile -->
+    <link rel="stylesheet" href="tablet.css" rel="stylesheet" media="screen and (min-width: 768px)"> <!-- Estilos enfocados a tablet -->
+  </head>
+  <body>
+    <h1>Responsive Design</h1>
+    <ul>
+      <li>
+        <strong>Break points:</strong> Son el o los tamaños de pantalla que
+        especificamos para que haya un cambio y los elementos se posicionen y
+        dimensionen respecto al tamaño de la pantalla. Lo que añadiremos luego
+        en los media queries
+      </li>
+      <li>
+        <strong>Media queries:</strong> Es el elemento de CSS que usamos para
+        crear los breakpoints y especificar los cambios que sufrirá el
+        producto/proyecto en los diferentes tamaños de pantalla
+        <ul>
+          <li>Smartphone: @media (min-width: 480px)</li>
+          <li>Tablet: @media (min-width: 768px)</li>
+          <li>Desktop: @media (min-width: 1024px)</li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      ¿Cuál es la mejor forma de implementar los Media queries en nuestros
+      proyectos y por qué? Usando un archivo CSS específico para cada tamaño de
+      pantalla. Sintaxis: <br />
+      "
+      <em
+        > < link rel="stylesheet" href="./tablets.css" media="screen and
+        (min-width: 720px)>"</em
+      >
+    </p>
+  </body>
+</html>
