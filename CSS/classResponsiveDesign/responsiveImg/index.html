@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imágenes Responsive</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>
+        Imágenes Responsive: Uso de la etiqueta Picture y Buenas Prácticas
+      </h1>
+      <!-- Cómo NO hacerlo
+        <div class="picture">
+            <img src="./img/small.jpg" alt="Pirulí">
+        </div> -->
+
+      <!-- <picture> se convierte en el contenedor de la imagen -->
+      <picture>
+        <!-- Cargará la imagen grande al llegar a 1.3K px -->
+        <source media="(min-width:1300px)" srcset="./img/large.jpg" />
+        <!-- Cargará la imagen mediana al llegar a 1K px -->
+        <source media="(min-width:1000px)" srcset="./img/medium.jpg" />
+        <img src="./img/small.jpg" alt="Es una imagen del Pirulí" />
+      </picture>
+    </main>
+  </body>
+</html>
