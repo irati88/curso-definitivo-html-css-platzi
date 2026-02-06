@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accesibilidad Web</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h2>Accesibilidad Web</h2>
+      <section class="section">
+        <h3>HTML Semántico para Proyectos Inclusivos</h3>
+        <p><strong>Semántica:</strong></p>
+        <ul>
+          <li>
+            Utilizar las etiquetas HTML
+            <strong>(Header, Footer, Main Content, Sidebar...)</strong> en lugar
+            de muchos "div"
+          </li>
+          <li>
+            Las etiquetas nos indican dónde estamos, por ejemplo, a los lectores
+            de pantalla para que el usuario sepa en qué sección de la web está y
+            pueda navegar en ella
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h3>Medidas relativas para accesibilidad en texto web</h3>
+        <p><strong>Texto:</strong></p>
+        <ul>
+          <li>
+            Px = Medida <strong>absoluta</strong>, no se podrá aumentar en caso
+            de problemas de vista. No es accesible
+          </li>
+          <li>
+            Rem = Medida <strong>relativa</strong>, se puede incrementar el
+            tamaño después y escalar el texto
+          </li>
+        </ul>
+        <h4>Soy un título de ejemplo</h4>
+        <section>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            porro, sequi aut autem velit architecto facilis magnam dolorum
+            quidem itaque iure vitae consequuntur quisquam natus enim, officiis
+            reprehenderit recusandae exercitationem!
+          </p>
+        </section>
+      </section>
+
+      <section class="section">
+        <h3>Atributos HTML para Mejorar la Accesibilidad Web</h3>
+        <ul>
+          <li>
+            <strong>Labels:</strong> Activa el input del form al hacer click
+          </li>
+          <form action="">
+            <label for="name">
+              <span>¿Cómo te llamas?</span>
+              <input type="text" name="name" id="name" />
+            </label>
+            <label for="age">
+              <span>¿Cuántos años tienes?</span>
+              <input type="text" name="age" id="age" />
+            </label>
+            <label for="country">
+              <span>¿De dónde eres?</span>
+              <input type="text" name="country" id="country" />
+            </label>
+          </form>
+          <section class="section-img">
+            <li>
+              <strong>Alt:</strong> Atributo que se agrega a la etiqueta
+              <strong>img</strong>
+              para que el software lea la descripción de la imagen
+            </li>
+            <img
+              src="./pexels-iriser-1381679.jpg"
+              alt="Es una foto de detalle de unas plantas moradas"
+              title="Son plantas moradas"
+            />
+          </section>
+          <li>
+            <strong>Titles:</strong> Atributo que se agrega a la etiqueta
+            <strong>a</strong> o <strong>img.</strong> El texto se muestra al
+            hacer hover sobre la imagen o hipervínculo
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
